@@ -1,5 +1,5 @@
 """
-** python implimentation of spatio-spectral decomposition (SSD):
+** python implementation of spatio-spectral decomposition (SSD):
 
 Nikulin,  V.V.,  Nolte,  G.,  Curio,  G.,  2011.    A  novel  method  for  reliableand  fast  extraction  of  neuronal
 EEG/MEG  oscillations  on  the  basis  ofspatio-spectral decomposition.  NeuroImage 55, 1528–1535.
