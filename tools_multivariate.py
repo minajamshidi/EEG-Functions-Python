@@ -54,8 +54,8 @@ def ssd(data, fs, fc, method='filter', n_keep=None):
         b_n2, a_n2 = butter(2, freqs[2, :] / fs * 2, 'bandstop')
         xn = hilbert_(filtfilt(b_n2, a_n2, y1))
 
-        cov_sig = np.cov(xs)
-        cov_noise = np.cov(xn)
+        cov_sig = np.real(np.cov(xs))
+        cov_noise = np.real(np.cov(xn))
     #elif method == 'fft':
 
     eig_val, eig_vec = eig(cov_sig)
